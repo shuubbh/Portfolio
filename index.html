@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shubham's Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth; /* Optional, for native smooth scrolling */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Shubham <span>Bisht</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div> <!-- Updated link -->
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#experience">Experience</a></div> <!-- Updated link -->
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a> <!-- Updated link -->
+                <a href="#experience">Experience</a> <!-- Updated link -->
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Shubham</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Currently pursuing my Master of Computer Applications (MCA) at Birla Institute of Applied Sciences, Bhimtal. I have a solid foundation in computer science from my Bachelor of Computer Applications (BCA) at DIT University, Dehradun. With hands-on experience in software development, particularly in Odoo ERP, and expertise in programming languages like Python, Java, C++, and AI technologies, I am passionate about creating innovative tech solutions. Explore my portfolio to see my projects, skills, and experiences.</p>
+                <div class="social-links">
+                    <a href="https://github.com/shuubbh" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:shubhambisht881@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/shubham-bisht-4b136a231/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="tel:9084296599" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="shubhambishtresume.docx" download>
+                        <button>Download CV</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Section -->
+<section id="about" class="education-section">
+    <h2 data-aos="fade-up" data-aos-duration="1500">Education</h2>
+    <div class="education-container">
+        <div class="education-item" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p>Birla Institute of Applied Sciences, Bhimtal</p>
+            <p>2022 - Present</p>
+        </div>
+        <div class="education-item" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Dehradun Institute of Technology, Dehradun</p>
+            <p>2019 - 2022</p>
+        </div>
+        <div class="education-item" data-aos="fade-up" data-aos-duration="1500">
+            <h3>12th Standard </h3>
+            <p>P.P.J Saraswati Vihar, Nainital</p>
+        </div>
+       
+    </div>
+</section>
+
+ <!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <h2 data-aos="fade-up" data-aos-duration="1500">My Skills</h2>
+
+    <!-- Technical Skills Section -->
+    <div class="skills-container">
+        <div class="skills-category" data-aos="fade-right" data-aos-duration="1500">
+            <h3>Technical Skills</h3>
+            <div class="skill-box">
+                <h4>HTML</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 72%;"></div>
+                </div>
+                <span class="skill-percentage">72%</span>
+            </div>
+
+            <div class="skill-box">
+                <h4>Python</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+            </div>
+
+            <div class="skill-box">
+                <h4>JavaScript</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+                <span class="skill-percentage">84%</span>
+            </div>
+
+            <div class="skill-box">
+                <h4>CSS</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 62%;"></div>
+                </div>
+                <span class="skill-percentage">72%</span>
+            </div>
+            <div class="skill-box">
+                <h4>Java</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 62%;"></div>
+                </div>
+                <span class="skill-percentage">81%</span>
+            </div>
+            <div class="skill-box">
+                <h4>AI</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 62%;"></div>
+                </div>
+                <span class="skill-percentage">76%</span>
+            </div>
+        </div>
+
+        <!-- Professional Skills Section -->
+        <div class="skills-category" data-aos="fade-left" data-aos-duration="1500">
+            <h3>Professional Skills</h3>
+            <div class="skill-box">
+                <h4>Teamwork</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+            </div>
+
+            <div class="skill-box">
+                <h4>Creativity</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+            </div>
+
+            <div class="skill-box">
+                <h4>Project Management</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 55%;"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+            </div>
+
+            <div class="skill-box">
+                <h4>Communication</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+                <span class="skill-percentage">70%</span>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+    <div class="projects-container">
+        <div class="project-item" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Text to Image and Video Generator using AI</h3>
+            <p>Developing a web application that generates images and  videos from a series of images using artificial intelligence. </p>
+            <p>The project utilizes the MERN stack for the full-stack development, MongoDB for data storage, and DALL-E AI for creating high-quality images that are sequenced into videos. </p>
+            <p></p>Technologies Used: MongoDB, Express.js, React.js, Node.js, DALL-E AI, TensorFlow, Kera’s, OpenCV, GANs. </p>
+        </div>
+        <div class="project-item" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Image Recognition and Classification</h3>
+            <p>A deep learning project that identifies the objects of interest in an image and identifies to which class the image belongs.</p>
+               <p> Technologies Used: Python, TensorFlow, Kera’s, OpenCV, NumPy, Pandas, Matplotlib, Scikit-learn. </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Experience Section -->
+<section id="experience" class="experience-section">
+    <h2 data-aos="fade-up" data-aos-duration="1500">Experience</h2>
+    <div class="experience-container">
+        <div class="experience-item" data-aos="fade-up" data-aos-duration="1500">
+            <h3>Internship</h3>
+            <p>Aryabhata Research Institute of Observational Sciences</p>
+            <p>May 2024 - July 2024</p>
+            <p>Software Intern at Aryabhata Research Institute of Observational Sciences  </p>
+            <p>Work on : Odoo ERP System </p>
+             <p>   •	Dashboard creation </p>
+             <p>   •	HRMS (Employee Module Creation) </p>
+             <p>   •	Forms Integration </p>
+             <p>   •	Role Mapping </p>
+             <p>Worked on Ubuntu and PostgreSQL as databases and used PyCharm for development .</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+        
+        // Smooth Scroll Implementation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
